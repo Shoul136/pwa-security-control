@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://shoul136.github.io/pwa-security-control/sw.js', { scope: 'https://shoul136.github.io/pwa-security-control/' })})}
